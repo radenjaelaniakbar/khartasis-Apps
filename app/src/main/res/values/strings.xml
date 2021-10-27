@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="disclaimer1_description">
+        Kuis ini hanya untuk orang dewasa. Dengan menekan tombol ‘Lanjutkan’ kamu memastikan bahwa kamu berusia 18 tahun atau lebih. Juga, Mental Healt Test ini hanya untuk tujuan informasi. Hal ini tidak dimaksudkan untuk mengganti konsultasi dengan dokter atau kesehatan mental profesional.
+    </string>
+
+    <string name="depression_description">
+        Tes Indeks Depresi adalah Tes yang digunakan untuk mengukur tingkat depresi seseorang, yang menyebabkan terganggunya fungsi manusia yang berhubungan dengan alam perasaan yang sedih dan gejala penyertanya.
+    </string>
+
+    <string name="disclaimer2_description">
+        Berkonsultasilah dengan sumber yang kompeten jika kamu yakin bahwa kamu mungkin menderita kondisi kesehatan mental.
+    </string>
 </resources>

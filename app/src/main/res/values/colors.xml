@@ -7,8 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="orange">#FFB988</color>
     <color name="birumud">#ADEBFF</color>
 
+    <!--   main color 60%-->
+    <color name="deepDumpling">#923C1C</color>
+    <!--   color 30%-->
+    <color name="cornflower">#98D6EA</color>
+    <!--   color 10%-->
+    <color name="midnight_green">#004E5F</color>
+    <color name="raw_sienna">#FFB988</color>
 
 </resources>

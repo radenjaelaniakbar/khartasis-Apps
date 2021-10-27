@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".petunjukPenggunaan"
+            android:exported="true" />
+        <activity
+            android:name=".depression"
+            android:exported="true" />
+        <activity
+            android:name=".music"
+            android:exported="true" />
+        <activity
+            android:name=".disclaimer"
+            android:exported="true" />
+        <activity
             android:name=".berandaActivity1"
             android:exported="true" />
         <activity
