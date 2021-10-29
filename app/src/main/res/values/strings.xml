@@ -1,14 +1,43 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="disclaimer1_description">
+    <string name="disclaimer_desc">
         Kuis ini hanya untuk orang dewasa. Dengan menekan tombol ‘Lanjutkan’ kamu memastikan bahwa kamu berusia 18 tahun atau lebih. Juga, Mental Healt Test ini hanya untuk tujuan informasi. Hal ini tidak dimaksudkan untuk mengganti konsultasi dengan dokter atau kesehatan mental profesional.
+        <br/><br/>
+        Berkonsultasilah dengan sumber yang kompeten jika kamu yakin bahwa kamu mungkin menderita kondisi kesehatan mental.
     </string>
 
     <string name="depression_description">
         Tes Indeks Depresi adalah Tes yang digunakan untuk mengukur tingkat depresi seseorang, yang menyebabkan terganggunya fungsi manusia yang berhubungan dengan alam perasaan yang sedih dan gejala penyertanya.
     </string>
 
-    <string name="disclaimer2_description">
-        Berkonsultasilah dengan sumber yang kompeten jika kamu yakin bahwa kamu mungkin menderita kondisi kesehatan mental.
+
+    <string name="short_desc">
+        Audio-track for when you
+        <br/>
+        need boost
+    </string>
+
+    <string name="luluby_desc">
+        Find rest and relaxation
+        <br/>
+        when you need it
+    </string>
+
+    <string name="smoking_desc">
+        Free yourself from
+        <br/>
+        addiction to tobacco
+    </string>
+
+    <string name="positive_desc">
+        A positive attitude can help
+        <br/>
+        you live a longer healthier life
+    </string>
+
+    <string name="feeling_desc">
+        Jalani hari dengan hal-hal
+        <br/>
+        baik
     </string>
 </resources>
