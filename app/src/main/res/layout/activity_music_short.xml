@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/raw_sienna"
+    tools:context=".music">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="414dp"
+        android:layout_height="45dp"
+        android:background="@color/deepDumpling"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/icon_back"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/bottom_nav"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_navigation"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="44dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/icon_home"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_nav"
+        app:layout_constraintStart_toStartOf="@+id/bottom_nav"
+        app:layout_constraintTop_toTopOf="@+id/bottom_nav" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="44dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="56dp"
+        android:background="@drawable/icon_music_active"
+        app:layout_constraintBottom_toBottomOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="44dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="56dp"
+        android:background="@drawable/icon_test"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="30dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="56dp"
+        android:background="@drawable/icon_jurnal"
+        app:layout_constraintBottom_toBottomOf="@+id/button5"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="32dp"
+        android:text="Short"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/short_desc"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+    <!--    bg music list-->
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/img_short" />
+
+    <ImageView
+        android:id="@+id/img_bgmusic"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/img_bgmusic" />
+
+    <!--    mindfulness-->
+
+    <ImageView
+        android:id="@+id/short_mindfulness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_bgmusic"
+        app:srcCompat="@drawable/music_list2" />
+
+    <Button
+        android:id="@+id/btn_mindfulness"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/icon_play"
+        app:layout_constraintBottom_toBottomOf="@+id/short_mindfulness"
+        app:layout_constraintStart_toStartOf="@+id/short_mindfulness"
+        app:layout_constraintTop_toTopOf="@+id/short_mindfulness" />
+
+
+    <TextView
+        android:id="@+id/title_mindfulness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Mindfulness"
+        android:textColor="@color/midnight_green"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/short_mindfulness"
+        app:layout_constraintStart_toEndOf="@+id/btn_mindfulness"
+        app:layout_constraintTop_toTopOf="@+id/short_mindfulness" />
+
+    <TextView
+        android:id="@+id/time_mindfulness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="2:30"
+        android:textColor="@color/midnight_green"
+        app:layout_constraintBottom_toBottomOf="@+id/title_mindfulness"
+        app:layout_constraintEnd_toEndOf="@+id/short_mindfulness"
+        app:layout_constraintTop_toTopOf="@+id/title_mindfulness" />
+
+    <!--    relaxation boost-->
+    <ImageView
+        android:id="@+id/short_relax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/short_mindfulness"
+        app:srcCompat="@drawable/music_list2" />
+
+    <Button
+        android:id="@+id/btn_relax"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/icon_play"
+        app:layout_constraintBottom_toBottomOf="@+id/short_relax"
+        app:layout_constraintStart_toStartOf="@+id/short_relax"
+        app:layout_constraintTop_toTopOf="@+id/short_relax" />
+
+
+    <TextView
+        android:id="@+id/title_relax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Relaxation Boost"
+        android:textColor="@color/midnight_green"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/short_relax"
+        app:layout_constraintStart_toEndOf="@+id/btn_relax"
+        app:layout_constraintTop_toTopOf="@+id/short_relax" />
+
+    <TextView
+        android:id="@+id/time_relax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="2:30"
+        android:textColor="@color/midnight_green"
+        app:layout_constraintBottom_toBottomOf="@+id/title_relax"
+        app:layout_constraintEnd_toEndOf="@+id/short_relax"
+        app:layout_constraintTop_toTopOf="@+id/title_relax" />
+
+
+    <!--    confifent boost-->
+    <ImageView
+        android:id="@+id/short_confifent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/short_relax"
+        app:srcCompat="@drawable/music_list2" />
+
+    <Button
+        android:id="@+id/btn_confifent"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/icon_pause"
+        app:layout_constraintBottom_toBottomOf="@+id/short_confifent"
+        app:layout_constraintStart_toStartOf="@+id/short_confifent"
+        app:layout_constraintTop_toTopOf="@+id/short_confifent" />
+
+
+    <TextView
+        android:id="@+id/title_confifent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Confifent Boost"
+        android:textColor="@color/midnight_green"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/short_confifent"
+        app:layout_constraintStart_toEndOf="@+id/btn_confifent"
+        app:layout_constraintTop_toTopOf="@+id/short_confifent" />
+
+    <TextView
+        android:id="@+id/time_confifent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="2:30"
+        android:textColor="@color/midnight_green"
+        app:layout_constraintBottom_toBottomOf="@+id/title_confifent"
+        app:layout_constraintEnd_toEndOf="@+id/short_confifent"
+        app:layout_constraintTop_toTopOf="@+id/title_confifent" />
+
+
+    <!--    spirit boost-->
+    <ImageView
+        android:id="@+id/short_spirit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/short_confifent"
+        app:srcCompat="@drawable/music_list2" />
+
+    <Button
+        android:id="@+id/btn_spirit"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/icon_play"
+        app:layout_constraintBottom_toBottomOf="@+id/short_spirit"
+        app:layout_constraintStart_toStartOf="@+id/short_spirit"
+        app:layout_constraintTop_toTopOf="@+id/short_spirit" />
+
+
+    <TextView
+        android:id="@+id/title_spirit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Spirit Boost"
+        android:textColor="@color/midnight_green"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/short_spirit"
+        app:layout_constraintStart_toEndOf="@+id/btn_spirit"
+        app:layout_constraintTop_toTopOf="@+id/short_spirit" />
+
+    <TextView
+        android:id="@+id/time_spirit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="2:30"
+        android:textColor="@color/midnight_green"
+        app:layout_constraintBottom_toBottomOf="@+id/title_spirit"
+        app:layout_constraintEnd_toEndOf="@+id/short_spirit"
+        app:layout_constraintTop_toTopOf="@+id/title_spirit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

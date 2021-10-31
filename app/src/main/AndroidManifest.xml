@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".music_short"
+            android:exported="true" />
+        <activity
             android:name=".petunjukPenggunaan"
             android:exported="true" />
         <activity

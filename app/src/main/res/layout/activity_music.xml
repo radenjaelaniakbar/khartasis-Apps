@@ -36,12 +36,11 @@
         tools:ignore="MissingConstraints" />
 
 
-    <Button
+    <ImageView
         android:id="@+id/bottom_nav"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/bottom_navigation"
-        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
