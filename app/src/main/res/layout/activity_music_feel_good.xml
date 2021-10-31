@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/raw_sienna"
-    tools:context=".music">
+    tools:context=".music_feel_good">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -104,7 +104,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="28dp"
-        android:text="Stay Positive"
+        android:text="Feeling Good for Life"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -129,7 +129,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
-        android:text="@string/positive_desc"
+        android:text="@string/feeling_desc"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -142,11 +142,11 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:srcCompat="@drawable/img_stay_positive" />
+        app:srcCompat="@drawable/img_feel_good" />
 
-    <!--   restfull night -->
+    <!--   acces deep calm -->
     <ImageView
-        android:id="@+id/luluby_restfull"
+        android:id="@+id/luluby_acces"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="184dp"
@@ -157,174 +157,174 @@
         app:srcCompat="@drawable/music_list2" />
 
     <Button
-        android:id="@+id/btn_restfull"
+        android:id="@+id/btn_acces"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/icon_play"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_restfull"
-        app:layout_constraintStart_toStartOf="@+id/luluby_restfull"
-        app:layout_constraintTop_toTopOf="@+id/luluby_restfull" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_acces"
+        app:layout_constraintStart_toStartOf="@+id/luluby_acces"
+        app:layout_constraintTop_toTopOf="@+id/luluby_acces" />
 
 
     <TextView
-        android:id="@+id/title_restfull"
+        android:id="@+id/title_acces"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Restfull Night"
+        android:text="Acces Deep Calm"
         android:textColor="@color/midnight_green"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_restfull"
-        app:layout_constraintStart_toEndOf="@+id/btn_restfull"
-        app:layout_constraintTop_toTopOf="@+id/luluby_restfull" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_acces"
+        app:layout_constraintStart_toEndOf="@+id/btn_acces"
+        app:layout_constraintTop_toTopOf="@+id/luluby_acces" />
 
     <TextView
-        android:id="@+id/time_restfull"
+        android:id="@+id/time_acces"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:text="2:30"
         android:textColor="@color/midnight_green"
-        app:layout_constraintBottom_toBottomOf="@+id/title_restfull"
-        app:layout_constraintEnd_toEndOf="@+id/luluby_restfull"
-        app:layout_constraintTop_toTopOf="@+id/title_restfull" />
+        app:layout_constraintBottom_toBottomOf="@+id/title_acces"
+        app:layout_constraintEnd_toEndOf="@+id/luluby_acces"
+        app:layout_constraintTop_toTopOf="@+id/title_acces" />
 
-    <!--    positive vibes-->
+    <!--    feeling trigger-->
     <ImageView
-        android:id="@+id/luluby_positive"
+        android:id="@+id/luluby_feeling"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/luluby_restfull"
+        app:layout_constraintTop_toBottomOf="@+id/luluby_acces"
         app:srcCompat="@drawable/music_list2" />
 
     <Button
-        android:id="@+id/btn_positive"
+        android:id="@+id/btn_feeling"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/icon_play"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_positive"
-        app:layout_constraintStart_toStartOf="@+id/luluby_positive"
-        app:layout_constraintTop_toTopOf="@+id/luluby_positive" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_feeling"
+        app:layout_constraintStart_toStartOf="@+id/luluby_feeling"
+        app:layout_constraintTop_toTopOf="@+id/luluby_feeling" />
 
 
     <TextView
-        android:id="@+id/title_positive"
+        android:id="@+id/title_feeling"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Positive Vibes"
+        android:text="Feeling Good"
         android:textColor="@color/midnight_green"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_positive"
-        app:layout_constraintStart_toEndOf="@+id/btn_positive"
-        app:layout_constraintTop_toTopOf="@+id/luluby_positive" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_feeling"
+        app:layout_constraintStart_toEndOf="@+id/btn_feeling"
+        app:layout_constraintTop_toTopOf="@+id/luluby_feeling" />
 
     <TextView
-        android:id="@+id/time_positive"
+        android:id="@+id/time_feeling"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:text="2:30"
         android:textColor="@color/midnight_green"
-        app:layout_constraintBottom_toBottomOf="@+id/title_positive"
-        app:layout_constraintEnd_toEndOf="@+id/luluby_positive"
-        app:layout_constraintTop_toTopOf="@+id/title_positive" />
+        app:layout_constraintBottom_toBottomOf="@+id/title_feeling"
+        app:layout_constraintEnd_toEndOf="@+id/luluby_feeling"
+        app:layout_constraintTop_toTopOf="@+id/title_feeling" />
 
-    <!--    soul-->
+    <!--    confifent life-->
     <ImageView
-        android:id="@+id/luluby_soul"
+        android:id="@+id/luluby_confifent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/luluby_positive"
+        app:layout_constraintTop_toBottomOf="@+id/luluby_feeling"
         app:srcCompat="@drawable/music_list2" />
 
     <Button
-        android:id="@+id/btn_soul"
+        android:id="@+id/btn_confifent"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/icon_play"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_soul"
-        app:layout_constraintStart_toStartOf="@+id/luluby_soul"
-        app:layout_constraintTop_toTopOf="@+id/luluby_soul" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_confifent"
+        app:layout_constraintStart_toStartOf="@+id/luluby_confifent"
+        app:layout_constraintTop_toTopOf="@+id/luluby_confifent" />
 
     <TextView
-        android:id="@+id/title_soul"
+        android:id="@+id/title_confifent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Soul"
+        android:text="Confifent Life"
         android:textColor="@color/midnight_green"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_soul"
-        app:layout_constraintStart_toEndOf="@+id/btn_soul"
-        app:layout_constraintTop_toTopOf="@+id/luluby_soul" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_confifent"
+        app:layout_constraintStart_toEndOf="@+id/btn_confifent"
+        app:layout_constraintTop_toTopOf="@+id/luluby_confifent" />
 
     <TextView
-        android:id="@+id/time_soul"
+        android:id="@+id/time_confifent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:text="2:30"
         android:textColor="@color/midnight_green"
-        app:layout_constraintBottom_toBottomOf="@+id/title_soul"
-        app:layout_constraintEnd_toEndOf="@+id/luluby_soul"
-        app:layout_constraintTop_toTopOf="@+id/title_soul" />
+        app:layout_constraintBottom_toBottomOf="@+id/title_confifent"
+        app:layout_constraintEnd_toEndOf="@+id/luluby_confifent"
+        app:layout_constraintTop_toTopOf="@+id/title_confifent" />
 
-    <!--    good day-->
+    <!--   trigger the future-->
     <ImageView
-        android:id="@+id/luluby_good"
+        android:id="@+id/luluby_trigger"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/luluby_soul"
+        app:layout_constraintTop_toBottomOf="@+id/luluby_confifent"
         app:srcCompat="@drawable/music_list2" />
 
     <Button
-        android:id="@+id/btn_good"
+        android:id="@+id/btn_trigger"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/icon_pause"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_good"
-        app:layout_constraintStart_toStartOf="@+id/luluby_good"
-        app:layout_constraintTop_toTopOf="@+id/luluby_good" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_trigger"
+        app:layout_constraintStart_toStartOf="@+id/luluby_trigger"
+        app:layout_constraintTop_toTopOf="@+id/luluby_trigger" />
 
     <TextView
-        android:id="@+id/title_good"
+        android:id="@+id/title_trigger"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Good Day"
+        android:text="Trigger the Future"
         android:textColor="@color/midnight_green"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_good"
-        app:layout_constraintStart_toEndOf="@+id/btn_good"
-        app:layout_constraintTop_toTopOf="@+id/luluby_good" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_trigger"
+        app:layout_constraintStart_toEndOf="@+id/btn_trigger"
+        app:layout_constraintTop_toTopOf="@+id/luluby_trigger" />
 
     <TextView
-        android:id="@+id/time_good"
+        android:id="@+id/time_trigger"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:text="2:30"
         android:textColor="@color/midnight_green"
-        app:layout_constraintBottom_toBottomOf="@+id/title_good"
-        app:layout_constraintEnd_toEndOf="@+id/luluby_good"
-        app:layout_constraintTop_toTopOf="@+id/title_good" />
+        app:layout_constraintBottom_toBottomOf="@+id/title_trigger"
+        app:layout_constraintEnd_toEndOf="@+id/luluby_trigger"
+        app:layout_constraintTop_toTopOf="@+id/title_trigger" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

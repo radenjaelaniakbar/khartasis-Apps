@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".hasil_test"
+            android:exported="true" />
+        <activity
+            android:name=".music_feel_good"
+            android:exported="true" />
+        <activity
             android:name=".music_stay_positive"
             android:exported="true" />
         <activity
