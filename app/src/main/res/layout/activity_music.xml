@@ -296,7 +296,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="12dp"
-        android:text="Feeling Food for Life"
+        android:text="Feeling Good for Life"
         android:textColor="@color/midnight_green"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/image_feeling"

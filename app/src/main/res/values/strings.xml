@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="disclaimer_desc">
-        Kuis ini hanya untuk orang dewasa. Dengan menekan tombol ‘Lanjutkan’ kamu memastikan bahwa kamu berusia 18 tahun atau lebih. Juga, Mental Healt Test ini hanya untuk tujuan informasi. Hal ini tidak dimaksudkan untuk mengganti konsultasi dengan dokter atau kesehatan mental profesional.
+    <string name="disclaimer_desc">Kuis ini hanya untuk orang dewasa. Dengan menekan tombol ‘Lanjutkan’ kamu memastikan bahwa kamu berusia 18 tahun atau lebih. Juga, Mental Healt Test ini hanya untuk tujuan informasi. Hal ini tidak dimaksudkan untuk mengganti konsultasi dengan dokter atau kesehatan mental profesional.
         <br/>
         \n\nBerkonsultasilah dengan sumber yang kompeten jika kamu yakin bahwa kamu mungkin menderita kondisi kesehatan mental.
     </string>
@@ -11,33 +10,28 @@
     </string>
 
 
-    <string name="short_desc">
-        Audio-track for when you
+    <string name="short_desc">Audio-track for when you
         <br/>
-        need boost
+        \nneed boost
     </string>
 
-    <string name="luluby_desc">
-        Find rest and relaxation
+    <string name="luluby_desc">Find rest and relaxation
         <br/>
-        when you need it
+        \nwhen you need it
     </string>
 
-    <string name="smoking_desc">
-        Free yourself from
+    <string name="smoking_desc">Free yourself from
         <br/>
-        addiction to tobacco
+        \naddiction to tobacco
     </string>
 
-    <string name="positive_desc">
-        A positive attitude can help
+    <string name="positive_desc">A positive attitude can help
         <br/>
-        you live a longer healthier life
+        \nyou live a longer healthier life
     </string>
 
-    <string name="feeling_desc">
-        Jalani hari dengan hal-hal
+    <string name="feeling_desc">Jalani hari dengan hal-hal
         <br/>
-        baik
+        \nbaik
     </string>
 </resources>
