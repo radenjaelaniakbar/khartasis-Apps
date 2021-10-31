@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".music_stay_positive"
+            android:exported="true" />
+        <activity
             android:name=".music_stop_smoking"
             android:exported="true" />
         <activity

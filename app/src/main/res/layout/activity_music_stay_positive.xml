@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/raw_sienna"
-    tools:context=".music_luluby">
+    tools:context=".music">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -103,13 +103,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="32dp"
-        android:text="Luluby"
+        android:layout_marginTop="28dp"
+        android:text="Stay Positive"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/img_bgmusic"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/img_bgmusic" />
+
 
     <TextView
         android:id="@+id/textView5"
@@ -117,38 +129,24 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
-        android:text="@string/luluby_desc"
+        android:text="@string/positive_desc"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-
-    <!--    bg music list-->
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="174dp"
         android:layout_height="174dp"
         android:layout_marginTop="56dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:srcCompat="@drawable/img_luluby" />
+        app:srcCompat="@drawable/img_stay_positive" />
 
+    <!--   restfull night -->
     <ImageView
-        android:id="@+id/img_bgmusic"
-        android:layout_width="412dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:srcCompat="@drawable/img_bgmusic" />
-
-    <!--    heavy rainly -->
-    <ImageView
-        android:id="@+id/luluby_heavy"
+        android:id="@+id/luluby_restfull"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="184dp"
@@ -159,176 +157,174 @@
         app:srcCompat="@drawable/music_list2" />
 
     <Button
-        android:id="@+id/btn_heavy"
+        android:id="@+id/btn_restfull"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/icon_play"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_heavy"
-        app:layout_constraintStart_toStartOf="@+id/luluby_heavy"
-        app:layout_constraintTop_toTopOf="@+id/luluby_heavy" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_restfull"
+        app:layout_constraintStart_toStartOf="@+id/luluby_restfull"
+        app:layout_constraintTop_toTopOf="@+id/luluby_restfull" />
 
 
     <TextView
-        android:id="@+id/title_heavy"
+        android:id="@+id/title_restfull"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Heavy Rainly"
+        android:text="Restfull Night"
         android:textColor="@color/midnight_green"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_heavy"
-        app:layout_constraintStart_toEndOf="@+id/btn_heavy"
-        app:layout_constraintTop_toTopOf="@+id/luluby_heavy" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_restfull"
+        app:layout_constraintStart_toEndOf="@+id/btn_restfull"
+        app:layout_constraintTop_toTopOf="@+id/luluby_restfull" />
 
     <TextView
-        android:id="@+id/time_heavy"
+        android:id="@+id/time_restfull"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:text="2:30"
         android:textColor="@color/midnight_green"
-        app:layout_constraintBottom_toBottomOf="@+id/title_heavy"
-        app:layout_constraintEnd_toEndOf="@+id/luluby_heavy"
-        app:layout_constraintTop_toTopOf="@+id/title_heavy" />
+        app:layout_constraintBottom_toBottomOf="@+id/title_restfull"
+        app:layout_constraintEnd_toEndOf="@+id/luluby_restfull"
+        app:layout_constraintTop_toTopOf="@+id/title_restfull" />
 
-    <!--    sleep soundly-->
+    <!--    positive vibes-->
     <ImageView
-        android:id="@+id/luluby_soundly"
+        android:id="@+id/luluby_positive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/luluby_heavy"
+        app:layout_constraintTop_toBottomOf="@+id/luluby_restfull"
         app:srcCompat="@drawable/music_list2" />
 
     <Button
-        android:id="@+id/btn_soundly"
+        android:id="@+id/btn_positive"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/icon_play"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_soundly"
-        app:layout_constraintStart_toStartOf="@+id/luluby_soundly"
-        app:layout_constraintTop_toTopOf="@+id/luluby_soundly" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_positive"
+        app:layout_constraintStart_toStartOf="@+id/luluby_positive"
+        app:layout_constraintTop_toTopOf="@+id/luluby_positive" />
 
 
     <TextView
-        android:id="@+id/title_soundly"
+        android:id="@+id/title_positive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Sleep Soundly"
+        android:text="Positive Vibes"
         android:textColor="@color/midnight_green"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_soundly"
-        app:layout_constraintStart_toEndOf="@+id/btn_soundly"
-        app:layout_constraintTop_toTopOf="@+id/luluby_soundly" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_positive"
+        app:layout_constraintStart_toEndOf="@+id/btn_positive"
+        app:layout_constraintTop_toTopOf="@+id/luluby_positive" />
 
     <TextView
-        android:id="@+id/time_soundly"
+        android:id="@+id/time_positive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:text="2:30"
         android:textColor="@color/midnight_green"
-        app:layout_constraintBottom_toBottomOf="@+id/title_soundly"
-        app:layout_constraintEnd_toEndOf="@+id/luluby_soundly"
-        app:layout_constraintTop_toTopOf="@+id/title_soundly" />
+        app:layout_constraintBottom_toBottomOf="@+id/title_positive"
+        app:layout_constraintEnd_toEndOf="@+id/luluby_positive"
+        app:layout_constraintTop_toTopOf="@+id/title_positive" />
 
-    <!--    Rainly-->
+    <!--    soul-->
     <ImageView
-        android:id="@+id/luluby_rainly"
+        android:id="@+id/luluby_soul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/luluby_soundly"
+        app:layout_constraintTop_toBottomOf="@+id/luluby_positive"
         app:srcCompat="@drawable/music_list2" />
 
     <Button
-        android:id="@+id/btn_rainly"
+        android:id="@+id/btn_soul"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/icon_play"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_rainly"
-        app:layout_constraintStart_toStartOf="@+id/luluby_rainly"
-        app:layout_constraintTop_toTopOf="@+id/luluby_rainly" />
-
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_soul"
+        app:layout_constraintStart_toStartOf="@+id/luluby_soul"
+        app:layout_constraintTop_toTopOf="@+id/luluby_soul" />
 
     <TextView
-        android:id="@+id/title_rainly"
+        android:id="@+id/title_soul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Sleep Soundly"
+        android:text="Soul"
         android:textColor="@color/midnight_green"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_rainly"
-        app:layout_constraintStart_toEndOf="@+id/btn_rainly"
-        app:layout_constraintTop_toTopOf="@+id/luluby_rainly" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_soul"
+        app:layout_constraintStart_toEndOf="@+id/btn_soul"
+        app:layout_constraintTop_toTopOf="@+id/luluby_soul" />
 
     <TextView
-        android:id="@+id/time_rainly"
+        android:id="@+id/time_soul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:text="2:30"
         android:textColor="@color/midnight_green"
-        app:layout_constraintBottom_toBottomOf="@+id/title_rainly"
-        app:layout_constraintEnd_toEndOf="@+id/luluby_rainly"
-        app:layout_constraintTop_toTopOf="@+id/title_rainly" />
+        app:layout_constraintBottom_toBottomOf="@+id/title_soul"
+        app:layout_constraintEnd_toEndOf="@+id/luluby_soul"
+        app:layout_constraintTop_toTopOf="@+id/title_soul" />
 
-    <!--    sleep-->
+    <!--    good day-->
     <ImageView
-        android:id="@+id/luluby_sleep"
+        android:id="@+id/luluby_good"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/luluby_rainly"
+        app:layout_constraintTop_toBottomOf="@+id/luluby_soul"
         app:srcCompat="@drawable/music_list2" />
 
     <Button
-        android:id="@+id/btn_sleep"
+        android:id="@+id/btn_good"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/icon_pause"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_sleep"
-        app:layout_constraintStart_toStartOf="@+id/luluby_sleep"
-        app:layout_constraintTop_toTopOf="@+id/luluby_sleep" />
-
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_good"
+        app:layout_constraintStart_toStartOf="@+id/luluby_good"
+        app:layout_constraintTop_toTopOf="@+id/luluby_good" />
 
     <TextView
-        android:id="@+id/title_sleep"
+        android:id="@+id/title_good"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Deep Sleep"
+        android:text="Good Day"
         android:textColor="@color/midnight_green"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/luluby_sleep"
-        app:layout_constraintStart_toEndOf="@+id/btn_sleep"
-        app:layout_constraintTop_toTopOf="@+id/luluby_sleep" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_good"
+        app:layout_constraintStart_toEndOf="@+id/btn_good"
+        app:layout_constraintTop_toTopOf="@+id/luluby_good" />
 
     <TextView
-        android:id="@+id/time_sleep"
+        android:id="@+id/time_good"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:text="2:30"
         android:textColor="@color/midnight_green"
-        app:layout_constraintBottom_toBottomOf="@+id/title_sleep"
-        app:layout_constraintEnd_toEndOf="@+id/luluby_sleep"
-        app:layout_constraintTop_toTopOf="@+id/title_sleep" />
+        app:layout_constraintBottom_toBottomOf="@+id/title_good"
+        app:layout_constraintEnd_toEndOf="@+id/luluby_good"
+        app:layout_constraintTop_toTopOf="@+id/title_good" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
