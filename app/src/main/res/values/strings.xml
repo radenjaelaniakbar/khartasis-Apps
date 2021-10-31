@@ -2,8 +2,8 @@
     <string name="app_name">My Application</string>
     <string name="disclaimer_desc">
         Kuis ini hanya untuk orang dewasa. Dengan menekan tombol ‘Lanjutkan’ kamu memastikan bahwa kamu berusia 18 tahun atau lebih. Juga, Mental Healt Test ini hanya untuk tujuan informasi. Hal ini tidak dimaksudkan untuk mengganti konsultasi dengan dokter atau kesehatan mental profesional.
-        <br/><br/>
-        Berkonsultasilah dengan sumber yang kompeten jika kamu yakin bahwa kamu mungkin menderita kondisi kesehatan mental.
+        <br/>
+        \n\nBerkonsultasilah dengan sumber yang kompeten jika kamu yakin bahwa kamu mungkin menderita kondisi kesehatan mental.
     </string>
 
     <string name="depression_description">
