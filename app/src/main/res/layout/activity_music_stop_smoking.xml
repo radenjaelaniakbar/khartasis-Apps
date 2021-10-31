@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/raw_sienna"
-    tools:context=".music_short">
+    tools:context=".music_stop_smoking">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -104,7 +104,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="32dp"
-        android:text="Short"
+        android:text="Stop Smoking"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -117,24 +117,21 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="8dp"
-        android:text="@string/short_desc"
+        android:text="@string/smoking_desc"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
 
-    <!--    bg music list-->
-
-
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="164dp"
-        android:layout_height="164dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="174dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:srcCompat="@drawable/img_short" />
+        app:srcCompat="@drawable/img_stop_smoking" />
 
     <ImageView
         android:id="@+id/img_bgmusic"
@@ -147,10 +144,9 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:srcCompat="@drawable/img_bgmusic" />
 
-    <!--    mindfulness-->
-
+    <!--    new challenge -->
     <ImageView
-        android:id="@+id/short_mindfulness"
+        android:id="@+id/luluby_challenge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="184dp"
@@ -161,179 +157,174 @@
         app:srcCompat="@drawable/music_list2" />
 
     <Button
-        android:id="@+id/btn_mindfulness"
+        android:id="@+id/btn_challenge"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/icon_play"
-        app:layout_constraintBottom_toBottomOf="@+id/short_mindfulness"
-        app:layout_constraintStart_toStartOf="@+id/short_mindfulness"
-        app:layout_constraintTop_toTopOf="@+id/short_mindfulness" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_challenge"
+        app:layout_constraintStart_toStartOf="@+id/luluby_challenge"
+        app:layout_constraintTop_toTopOf="@+id/luluby_challenge" />
 
 
     <TextView
-        android:id="@+id/title_mindfulness"
+        android:id="@+id/title_challenge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Mindfulness"
+        android:text="New Challenge"
         android:textColor="@color/midnight_green"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/short_mindfulness"
-        app:layout_constraintStart_toEndOf="@+id/btn_mindfulness"
-        app:layout_constraintTop_toTopOf="@+id/short_mindfulness" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_challenge"
+        app:layout_constraintStart_toEndOf="@+id/btn_challenge"
+        app:layout_constraintTop_toTopOf="@+id/luluby_challenge" />
 
     <TextView
-        android:id="@+id/time_mindfulness"
+        android:id="@+id/time_challenge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:text="2:30"
         android:textColor="@color/midnight_green"
-        app:layout_constraintBottom_toBottomOf="@+id/title_mindfulness"
-        app:layout_constraintEnd_toEndOf="@+id/short_mindfulness"
-        app:layout_constraintTop_toTopOf="@+id/title_mindfulness" />
+        app:layout_constraintBottom_toBottomOf="@+id/title_challenge"
+        app:layout_constraintEnd_toEndOf="@+id/luluby_challenge"
+        app:layout_constraintTop_toTopOf="@+id/title_challenge" />
 
-    <!--    relaxation boost-->
+    <!--    quit smoking-->
     <ImageView
-        android:id="@+id/short_relax"
+        android:id="@+id/luluby_quit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/short_mindfulness"
+        app:layout_constraintTop_toBottomOf="@+id/luluby_challenge"
         app:srcCompat="@drawable/music_list2" />
 
     <Button
-        android:id="@+id/btn_relax"
+        android:id="@+id/btn_quit"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/icon_play"
-        app:layout_constraintBottom_toBottomOf="@+id/short_relax"
-        app:layout_constraintStart_toStartOf="@+id/short_relax"
-        app:layout_constraintTop_toTopOf="@+id/short_relax" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_quit"
+        app:layout_constraintStart_toStartOf="@+id/luluby_quit"
+        app:layout_constraintTop_toTopOf="@+id/luluby_quit" />
 
 
     <TextView
-        android:id="@+id/title_relax"
+        android:id="@+id/title_quit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Relaxation Boost"
+        android:text="Quit Smoking"
         android:textColor="@color/midnight_green"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/short_relax"
-        app:layout_constraintStart_toEndOf="@+id/btn_relax"
-        app:layout_constraintTop_toTopOf="@+id/short_relax" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_quit"
+        app:layout_constraintStart_toEndOf="@+id/btn_quit"
+        app:layout_constraintTop_toTopOf="@+id/luluby_quit" />
 
     <TextView
-        android:id="@+id/time_relax"
+        android:id="@+id/time_quit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:text="2:30"
         android:textColor="@color/midnight_green"
-        app:layout_constraintBottom_toBottomOf="@+id/title_relax"
-        app:layout_constraintEnd_toEndOf="@+id/short_relax"
-        app:layout_constraintTop_toTopOf="@+id/title_relax" />
+        app:layout_constraintBottom_toBottomOf="@+id/title_quit"
+        app:layout_constraintEnd_toEndOf="@+id/luluby_quit"
+        app:layout_constraintTop_toTopOf="@+id/title_quit" />
 
-
-    <!--    confifent boost-->
+    <!--    stay stopped-->
     <ImageView
-        android:id="@+id/short_confifent"
+        android:id="@+id/luluby_stay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/short_relax"
+        app:layout_constraintTop_toBottomOf="@+id/luluby_quit"
         app:srcCompat="@drawable/music_list2" />
 
     <Button
-        android:id="@+id/btn_confifent"
+        android:id="@+id/btn_stay"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/icon_play"
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_stay"
+        app:layout_constraintStart_toStartOf="@+id/luluby_stay"
+        app:layout_constraintTop_toTopOf="@+id/luluby_stay" />
+
+    <TextView
+        android:id="@+id/title_stay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Stay Stopped"
+        android:textColor="@color/midnight_green"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_stay"
+        app:layout_constraintStart_toEndOf="@+id/btn_stay"
+        app:layout_constraintTop_toTopOf="@+id/luluby_stay" />
+
+    <TextView
+        android:id="@+id/time_stay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="2:30"
+        android:textColor="@color/midnight_green"
+        app:layout_constraintBottom_toBottomOf="@+id/title_stay"
+        app:layout_constraintEnd_toEndOf="@+id/luluby_stay"
+        app:layout_constraintTop_toTopOf="@+id/title_stay" />
+
+    <!--    safe palace-->
+    <ImageView
+        android:id="@+id/luluby_safe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/luluby_stay"
+        app:srcCompat="@drawable/music_list2" />
+
+    <Button
+        android:id="@+id/btn_safe"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/icon_pause"
-        app:layout_constraintBottom_toBottomOf="@+id/short_confifent"
-        app:layout_constraintStart_toStartOf="@+id/short_confifent"
-        app:layout_constraintTop_toTopOf="@+id/short_confifent" />
-
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_safe"
+        app:layout_constraintStart_toStartOf="@+id/luluby_safe"
+        app:layout_constraintTop_toTopOf="@+id/luluby_safe" />
 
     <TextView
-        android:id="@+id/title_confifent"
+        android:id="@+id/title_safe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Confifent Boost"
+        android:text="Safe Palace"
         android:textColor="@color/midnight_green"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/short_confifent"
-        app:layout_constraintStart_toEndOf="@+id/btn_confifent"
-        app:layout_constraintTop_toTopOf="@+id/short_confifent" />
+        app:layout_constraintBottom_toBottomOf="@+id/luluby_safe"
+        app:layout_constraintStart_toEndOf="@+id/btn_safe"
+        app:layout_constraintTop_toTopOf="@+id/luluby_safe" />
 
     <TextView
-        android:id="@+id/time_confifent"
+        android:id="@+id/time_safe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:text="2:30"
         android:textColor="@color/midnight_green"
-        app:layout_constraintBottom_toBottomOf="@+id/title_confifent"
-        app:layout_constraintEnd_toEndOf="@+id/short_confifent"
-        app:layout_constraintTop_toTopOf="@+id/title_confifent" />
-
-
-    <!--    spirit boost-->
-    <ImageView
-        android:id="@+id/short_spirit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/short_confifent"
-        app:srcCompat="@drawable/music_list2" />
-
-    <Button
-        android:id="@+id/btn_spirit"
-        android:layout_width="38dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="20dp"
-        android:background="@drawable/icon_play"
-        app:layout_constraintBottom_toBottomOf="@+id/short_spirit"
-        app:layout_constraintStart_toStartOf="@+id/short_spirit"
-        app:layout_constraintTop_toTopOf="@+id/short_spirit" />
-
-
-    <TextView
-        android:id="@+id/title_spirit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Spirit Boost"
-        android:textColor="@color/midnight_green"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/short_spirit"
-        app:layout_constraintStart_toEndOf="@+id/btn_spirit"
-        app:layout_constraintTop_toTopOf="@+id/short_spirit" />
-
-    <TextView
-        android:id="@+id/time_spirit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="20dp"
-        android:text="2:30"
-        android:textColor="@color/midnight_green"
-        app:layout_constraintBottom_toBottomOf="@+id/title_spirit"
-        app:layout_constraintEnd_toEndOf="@+id/short_spirit"
-        app:layout_constraintTop_toTopOf="@+id/title_spirit" />
-
+        app:layout_constraintBottom_toBottomOf="@+id/title_safe"
+        app:layout_constraintEnd_toEndOf="@+id/luluby_safe"
+        app:layout_constraintTop_toTopOf="@+id/title_safe" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
