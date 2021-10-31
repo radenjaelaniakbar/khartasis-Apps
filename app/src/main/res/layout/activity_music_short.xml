@@ -136,18 +136,18 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:srcCompat="@drawable/img_short" />
 
+    <!--    mindfulness-->
+
     <ImageView
         android:id="@+id/img_bgmusic"
         android:layout_width="412dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="88dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:srcCompat="@drawable/img_bgmusic" />
-
-    <!--    mindfulness-->
 
     <ImageView
         android:id="@+id/short_mindfulness"
